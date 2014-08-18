@@ -3,6 +3,8 @@ JavaScript SOAP Client
 
 A JavaScript SOAP Client based on Code by Matteo Casati - http://www.guru4.net/
 
+License: [Attribution-ShareAlike 4.0 International (CC BY-SA 4.0)](http://creativecommons.org/licenses/by-sa/4.0/)
+
 DEMO 1: "Hello World!"
 ----------------------
 
