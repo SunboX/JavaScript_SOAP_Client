@@ -340,8 +340,9 @@ public UserList GetUserList()
     }
     return ul;
 }
-
-UserList class:
+```
+*UserList class:*
+```csharp
 [Serializable]
 public class UserList : System.Collections.CollectionBase
 {
