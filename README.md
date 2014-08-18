@@ -414,7 +414,7 @@ function GetCars_callBack(cars)
     // enable dropdown
     document.frmDemo.ddCar.disabled = false;
 }
-```javascript
+```
 *Server (WebMethod - C#)*
 ```csharp
 public Car[] GetCars(string companyid)
