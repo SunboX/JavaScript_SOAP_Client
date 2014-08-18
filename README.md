@@ -205,10 +205,12 @@ function GetUser_callBack(u)
 }
 ```
 *Server (WebMethod - C#)*
-```public User GetUser(string username)
+```csharp
+public User GetUser(string username)
 {
-    if (username.Trim().Length == 0)
+    if (username.Trim().Length == 0) {
         return null;
+    }
     int id = DateTime.Now.Millisecond;
     string password = "PWD_" + DateTime.Now.Ticks.ToString();
     DateTime expirationdate = DateTime.Now.Add(new TimeSpan(1, 0, 0, 0));
@@ -252,3 +254,4 @@ public class User
         set { _expirationdate = value; }
     }
 }
+```
